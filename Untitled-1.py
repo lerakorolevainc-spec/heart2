@@ -11,7 +11,5 @@ speed(500000)
 bgcolor('black')
 for i in range(6000):
     goto(h(i)*20,e(i)*20)
-    for j in range(5):
-        color("#300098")
-    goto(0,0)
+    color("#300098")
 done()
